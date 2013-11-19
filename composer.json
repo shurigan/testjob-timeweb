@@ -1,0 +1,16 @@
+{
+    "name": "Shurigan/TimewebTestJob",
+    "description": "Test job for Timeweb company",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Shrigan",
+            "email": "shurigan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.7",
+        "twig/extensions": "1.0.*@dev",
+        "phpunit/phpunit": "3.8.*@dev"
+    }
+}
