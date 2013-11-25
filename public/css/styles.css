@@ -1,0 +1,9 @@
+#results tr:hover {
+    background-color: #ccc;
+}
+
+.view {
+    padding: 2em;
+    max-height: 400px;
+    overflow: auto;
+}

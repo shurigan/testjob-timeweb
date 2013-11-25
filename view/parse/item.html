@@ -1,0 +1,8 @@
+<div class="ui header small">Результаты для '{{ url }}. Всего вхождений {{ total }}'</div>
+        <div class="view">
+            <ul class="ui list">
+                {% for result in results %}
+                <li class="item">{{ result }}</li>
+                {% endfor %}
+            </ul>
+        </div>

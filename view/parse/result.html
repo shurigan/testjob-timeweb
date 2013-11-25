@@ -1,0 +1,6 @@
+<div class="ui header small"> Парсинг '{{ url }}' завершен. Найдено {{ total }} вхождений.</div>
+<ul class="ui list">
+    {% for result in results %}
+    <li class="item">{{ result }}</li>
+    {% endfor %}
+</ul>
